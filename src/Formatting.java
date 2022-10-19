@@ -12,7 +12,7 @@ public class Formatting {
 		System.out.printf("실수 %f와 boolean %b\n", 3.141592, true);
 		
 		// 사용법 2-2. System.out.format() 메소드 사용
-			// printf 메소드와 동일하다.
+		// printf 메소드와 동일하다.
 		
 		
 		
