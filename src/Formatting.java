@@ -29,6 +29,10 @@ public class Formatting {
 		System.out.printf("%11.4f%n", f);		//  12345.6789		11칸의 공백을 채워넣음. 소숫점 아래의 숫자와, 점도 칸을 차지하는 것으로 간주한다.
 		System.out.printf("%+,-13.4f<-%n", f);	// +12,345.6789 <-	정수에서 쓰였던 + 와 , 와 - 모두 잘 작동한다.
 		
+	}
 	
+	// 사용법 예시 - 객체의 toString 메소드에 사용할 수 있다고 함.
+	public String toString(String name, int number) {
+		return String.format("%s%d", name, number);
 	}
 }
